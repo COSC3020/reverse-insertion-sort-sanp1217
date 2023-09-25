@@ -12,3 +12,7 @@ function insertionSortReverse(array) {
     return array;
 }
 
+//On average, each value will swap with half of the other values which is
+//(n-1) / 2. Finding the average number of swaps for the whole list
+//can be found by multiplying (n-1) / 2 by the number of values resulting
+//in (n * (n-1)) / 2. Asymptotically, this would be Θ(n^2).
